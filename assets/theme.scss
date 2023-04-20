@@ -1,0 +1,35 @@
+:root {
+  @media screen {
+    &[data-theme="light"] {
+      --light: #f8f9fa;
+      --dark: #343a40;
+      --secondary: #adb5bd;
+      --primary-color: #3feee6;
+      --secondary-color: #2ec4b6;
+      --border: #e9ecef;
+      --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      --opac: 1;
+      --topcol: white;
+      --grad: none;
+      --theme-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/themes/moon.png");
+      --insta-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/social/instaicoblack.png");
+    }
+  }
+  @media screen {
+    &[data-theme="dark"] {
+      --light: #121212;
+      --dark: #f8f9fa;
+      --secondary: #adb5bd;
+      --primary-color: #fc4445;
+      --secondary-color: #2ec4b6;
+      --border: #e9ecef;
+      --topcol: rgba(13, 13, 13, 0.7);
+      --theme: none;
+      --shadow: none;
+      --opac: 0.9;
+      --grad: linear-gradient(to right, #ff007f, #00ffff);
+      --theme-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/themes/sun.png");
+      --insta-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/social/instaicowhite.png");
+    }
+  }
+}

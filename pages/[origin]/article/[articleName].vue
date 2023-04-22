@@ -90,7 +90,7 @@ export default {
             content: [
               {
                 image: "none",
-                text: '<p align="center"><iframe id="sumytvid" class="ytvid" src="https://www.youtube.com/embed/MUsb_jLLVm4?vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe></p>',
+                text: '<iframe id="sumytvid" class="ytvid" src="https://www.youtube.com/embed/MUsb_jLLVm4?vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen ></iframe>',
               },
               {
                 image: "none",

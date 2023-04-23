@@ -27,7 +27,6 @@
 <style scoped lang="scss">
 .waves {
   position: absolute;
-  width: 99.3vw;
   height: auto;
   z-index: -2;
 }

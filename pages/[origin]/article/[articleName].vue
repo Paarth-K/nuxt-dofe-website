@@ -1,12 +1,13 @@
 <template>
-  <base-article-content
-    :main-section-name="mainSectionName"
-    :main-section-path="mainSectionPath"
-    :article-content="articleContent"
-    v-if="articleContent"
-  >
-  </base-article-content>
-  <!-- <not-found v-else></not-found> -->
+  <div>
+    <base-article-content
+      :main-section-name="mainSectionName"
+      :main-section-path="mainSectionPath"
+      :article-content="articleContent"
+      v-if="articleContent"
+    >
+    </base-article-content>
+  </div>
 </template>
 <script>
 export default {
@@ -17,6 +18,7 @@ export default {
       //   mainSectionPath: '/',
       articles: {
         volunteering: {
+          "section-name": "Volunteering",
           "day-one": {
             title: "Day One!",
             date: "Wed, 22 Feb 2023",
@@ -84,6 +86,7 @@ export default {
           },
         },
         "adventurous-journey": {
+          "section-name": "Adventurous Journey",
           "prac-aj": {
             title: "Practise Adventurous Journey",
             date: "Wed, 22 Mar 2023",
@@ -154,13 +157,7 @@ export default {
       return "/" + this.identifier.origin;
     },
     mainSectionName() {
-      if (this.identifier.origin == "volunteering") {
-        return "Volunteering";
-      } else if (this.identifier.origin == "adventurous-journey") {
-        return "Adventurous Journey";
-      } else {
-        return "huh";
-      }
+      return this.articles[this.identifier.origin]["section-name"];
     },
   },
 };

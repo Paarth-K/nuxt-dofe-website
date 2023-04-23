@@ -1,4 +1,5 @@
 <template>
+  <footer-background-effect></footer-background-effect>
   <header id="header" class="shadow bg-light sticky">
     <nav class="container navbar">
       <client-only>

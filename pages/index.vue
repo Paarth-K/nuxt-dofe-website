@@ -1,6 +1,10 @@
 <template>
   <div>
-    <h2>Home</h2>
+    <template>
+      <section id="posts">
+        <volunteering-grid></volunteering-grid>
+      </section>
+    </template>
   </div>
 </template>
 <script>

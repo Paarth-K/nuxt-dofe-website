@@ -1,10 +1,8 @@
 <template>
   <div>
-    <template>
-      <section id="posts">
-        <volunteering-grid></volunteering-grid>
-      </section>
-    </template>
+    <section id="posts">
+      <volunteering-grid></volunteering-grid>
+    </section>
   </div>
 </template>
 <script>

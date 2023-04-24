@@ -2,17 +2,17 @@
 export default defineNuxtConfig({
   css: ["@/assets/style.scss"],
 
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: `
-            @import "@/assets/theme.scss";
-          `,
-        },
-      },
-    },
-  },
+  // vite: {
+  //   css: {
+  //     preprocessorOptions: {
+  //       scss: {
+  //         additionalData: `
+  //           @import "@/assets/theme.scss";
+  //         `,
+  //       },
+  //     },
+  //   },
+  // },
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {

@@ -22,7 +22,7 @@ export default {
         },
         {
           link: "something-new",
-          image: "/assets/images/article/img3_crop.png",
+          image: "/assets/images/article/img3_crop.png?updatedAt=1681989861603",
           title: "Something New!",
           date: "Sat, 25 Mar 2023",
         },

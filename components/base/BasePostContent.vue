@@ -33,7 +33,7 @@ export default {
     // },
     cdnImage() {
       return (
-        "https://ik.imagekit.io/1vyqdxrhm/tr:pr-true,f-jpg," +
+        "https://ik.imagekit.io/1vyqdxrhm/tr:pr-true,f-webp," +
         this.articleContent.image
       );
     },

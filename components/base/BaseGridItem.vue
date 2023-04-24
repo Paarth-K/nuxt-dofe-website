@@ -31,7 +31,7 @@ export default {
       return this.cameFrom + "/article/" + this.linkToArticle;
     },
     cdnImage() {
-      return "https://ik.imagekit.io/1vyqdxrhm/tr:pr-true,f-jpg," + this.image;
+      return "https://ik.imagekit.io/1vyqdxrhm/tr:pr-true,f-webp," + this.image;
     },
   },
 };

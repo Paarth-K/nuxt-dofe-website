@@ -28,7 +28,6 @@ export default {
   props: ["linkToArticle", "image", "date", "title", "cameFrom"],
   computed: {
     linkToArticleComp() {
-      console.log(this.cameFrom + "/article/" + this.linkToArticle);
       return this.cameFrom + "/article/" + this.linkToArticle;
     },
     cdnImage() {

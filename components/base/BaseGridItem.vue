@@ -3,17 +3,17 @@
     <article class="article">
       <div class="card">
         <div class="overflow-img">
-          <nuxt-link :href="linkToArticleComp">
+          <NuxtLink :href="linkToArticleComp">
             <img :src="cdnImage" class="img-fluid" />
-          </nuxt-link>
+          </NuxtLink>
         </div>
         <div class="card-body text-center px-1">
-          <nuxt-link
+          <NuxtLink
             :href="linkToArticleComp"
             class="text-title display-1 text-dark"
           >
             {{ title }}
-          </nuxt-link>
+          </NuxtLink>
           <p class="secondary-title text-secondary display-3">
             <span><i class="far fa-clock text-primary"></i> {{ date }}</span>
           </p>
@@ -28,6 +28,7 @@ export default {
   props: ["linkToArticle", "image", "date", "title", "cameFrom"],
   computed: {
     linkToArticleComp() {
+      console.log(this.cameFrom + "/article/" + this.linkToArticle);
       return this.cameFrom + "/article/" + this.linkToArticle;
     },
     cdnImage() {

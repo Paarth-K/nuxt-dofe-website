@@ -1,5 +1,7 @@
 <template>
-  <base-grid :grid-items="articles" :origin="currentPath"></base-grid>
+  <div>
+    <base-grid :grid-items="articles" :origin="currentPath"></base-grid>
+  </div>
 </template>
 <script>
 export default {

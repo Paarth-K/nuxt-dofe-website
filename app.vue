@@ -3,7 +3,9 @@
     <BackgroundEffect></BackgroundEffect>
     <NuxtLayout>
       <Transition>
-        <NuxtPage></NuxtPage>
+        <div>
+          <NuxtPage></NuxtPage>
+        </div>
       </Transition>
     </NuxtLayout>
   </div>

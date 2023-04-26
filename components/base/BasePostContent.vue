@@ -1,6 +1,11 @@
 <template>
   <div class="thumbnail">
-    <img v-if="showImage" :src="cdnImage" class="thumbnail-image" />
+    <nuxt-img
+      v-if="showImage"
+      provider="imagekit"
+      :src="cdnImage"
+      class="thumbnail-image"
+    />
   </div>
   <!-- .Thumbnail -->
   <!-- content -->
@@ -32,10 +37,7 @@ export default {
     //   return clean;
     // },
     cdnImage() {
-      return (
-        "https://ik.imagekit.io/1vyqdxrhm/tr:pr-true,f-webp," +
-        this.articleContent.image
-      );
+      return "tr:pr-true,f-webp," + this.articleContent.image;
     },
   },
 };

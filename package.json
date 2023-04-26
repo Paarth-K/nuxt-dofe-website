@@ -13,8 +13,10 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-28020728.5df24eb",
     "@nuxtjs/style-resources": "^1.2.1",
     "@types/node": "^18",
+    "@types/three": "^0.146.0",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -22,9 +24,7 @@
     "prettier": "^2.8.7",
     "sass": "^1.62.0",
     "sass-loader": "^13.2.2",
-    "three": "^0.146.0",
-    "@types/three": "^0.146.0"
-    
+    "three": "^0.146.0"
   },
   "dependencies": {
     "sanitize-html": "^2.10.0"

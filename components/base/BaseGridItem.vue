@@ -4,7 +4,7 @@
       <div class="card">
         <div class="overflow-img">
           <NuxtLink :href="linkToArticleComp">
-            <img :src="cdnImage" class="img-fluid" />
+            <nuxt-img provider="imagekit" :src="cdnImage" class="img-fluid" />
           </NuxtLink>
         </div>
         <div class="card-body text-center px-1">
@@ -31,7 +31,7 @@ export default {
       return this.cameFrom + "/article/" + this.linkToArticle;
     },
     cdnImage() {
-      return "https://ik.imagekit.io/1vyqdxrhm/tr:pr-true,f-webp," + this.image;
+      return "tr:pr-true,f-webp," + this.image;
     },
   },
 };

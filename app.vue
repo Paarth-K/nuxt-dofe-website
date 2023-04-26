@@ -4,7 +4,7 @@
     <NuxtLayout>
       <Transition>
         <div>
-          <keep-alive> <NuxtPage></NuxtPage></keep-alive>
+          <NuxtPage></NuxtPage>
         </div>
       </Transition>
     </NuxtLayout>

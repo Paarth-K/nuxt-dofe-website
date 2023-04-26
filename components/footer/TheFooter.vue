@@ -25,7 +25,11 @@
             </div>
           </div>
         </div>
-        <div class="col-3" id="feat"></div>
+        <div class="col-3">
+          <client-only>
+            <threeD-The-Experience></threeD-The-Experience>
+          </client-only>
+        </div>
         <div class="col-3">
           <h2 class="footer-title secondary-title mt-2">Social</h2>
 

@@ -24,7 +24,7 @@ export default {
             date: "Wed, 22 Feb 2023",
             content: [
               {
-                image: "/assets/images/article/img1.png",
+                image: "/assets/images/volunteering/img1.png",
                 text: 'Today was my first day volunteering at <a class="text-primary" href="https://willinghearts.org.sg/" target="_blank" >willing hearts</a >! We had booked a time slot very early in the morning (5-9 AM), but we came at 7 AM instead (there was no way I could reach at 5, I live an hour away) and washed dishes until ~8:30 (1 hour 30 mins). I also went with a friend, Dev (Wearing the yellow shirt in the photo). We had a great time! We also met a few other volunteers sent on behalf of companies like Lufthansa and Sands Cares',
               },
             ],
@@ -35,7 +35,7 @@ export default {
             date: "Sat, 4 Mar 2023",
             content: [
               {
-                image: "/assets/images/article/img2.png",
+                image: "/assets/images/volunteering/img2.png",
                 text: "Today was another day of dishwashing. Same time as last time we chose the early slot at 7:00 in the morning. Me and Dev worked together this time as no other sinks were available. I would scrub the soap on the trays and Dev would rinse the soap off. We had fun. I think we easily would have cleaned 100 plates together.",
               },
             ],
@@ -46,7 +46,7 @@ export default {
             date: "Sat, 25 Mar 2023",
             content: [
               {
-                image: "/assets/images/article/img3.png",
+                image: "/assets/images/volunteering/img3.png",
                 text: "Today I did something different for a change! I helped out on a multitude of tasks, like packaging food, and helping in the preparation of the food, by adding raw rice into plastic dishes to be cooked, and also laying out said dishes onto a metal plate which goes into the large cookers. I went with my friend Dev again, at 7am in the morning",
               },
             ],
@@ -58,7 +58,7 @@ export default {
 
             content: [
               {
-                image: "/assets/images/article/img4.png",
+                image: "/assets/images/volunteering/img4.png",
                 text: "This time we had a new job again! We chopped vegetables, I was taught how to chop bok choy, and peel and chop lettuce, and peel ridge gourd. I don't know exactly what was it being used for, but I must have peeled and chopped at least 10kgs of vegetables in that day alone!",
               },
             ],
@@ -69,7 +69,7 @@ export default {
             date: "Sat, 8 Apr 2023",
             content: [
               {
-                image: "/assets/images/article/img5.png",
+                image: "/assets/images/volunteering/img5.png",
                 text: "This time I did similar things to what I did last time. but instead of chopping the veggies, I used my hands to separate the leaves, and then split the stem of the plant into small pieces. I did that for an hour and 30 mins. I don't know exactly what vegetable it was, but it was fun!",
               },
             ],
@@ -79,8 +79,18 @@ export default {
             date: "Fri, 14 Apr 2023",
             content: [
               {
-                image: "/assets/images/article/img6.png",
+                image: "/assets/images/volunteering/img6.png",
                 text: "Today my friend (Dev) and I did some packing! I believe I was packing rice with salmon, and some vegetable noodles, there were 7000 of these dishes to be filled (in plastic containers), and then packed! We also met people from Netlinkcares. They were very friendly and helpful.",
+              },
+            ],
+          },
+          "heavy-lifting": {
+            title: "Heavy Lifting",
+            date: "Mon, 24 Apr 2023",
+            content: [
+              {
+                image: "/assets/images/volunteering/img7.png",
+                text: "Today, me and my Friend Dev did some chopping of vegetables. We were cutting sweet potatoes, most likely for soup. We also helped in moving heavy crates of rice around, which were surprisingly heavy for just rice! We also saw staff from Allianz volunteering there.",
               },
             ],
           },

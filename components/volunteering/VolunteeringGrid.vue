@@ -10,39 +10,45 @@ export default {
       articles: [
         {
           link: "day-one",
-          image: "/assets/images/article/img1_crop.png",
+          image: "/assets/images/volunteering/img1_crop.png",
           title: "Day One!",
           date: "Wed, 22 Feb 2023",
         },
         {
           link: "dishwashing-again",
-          image: "/assets/images/article/img2_crop.png",
+          image: "/assets/images/volunteering/img2_crop.png",
           title: "Dishwashing Again",
           date: "Sat, 4 Mar 2023",
         },
         {
           link: "something-new",
-          image: "/assets/images/article/img3_crop.png?updatedAt=1681989861603",
+          image: "/assets/images/volunteering/img3_crop.png",
           title: "Something New!",
           date: "Sat, 25 Mar 2023",
         },
         {
           link: "choppers",
-          image: "/assets/images/article/img4.png",
+          image: "/assets/images/volunteering/img4.png",
           title: "Choppers",
           date: "Sat, 1 Apr 2023",
         },
         {
           link: "snap",
-          image: "/assets/images/article/img5.png",
+          image: "/assets/images/volunteering/img5.png",
           title: "Snap",
           date: "Sat, 8 Apr 2023",
         },
         {
           link: "packers",
-          image: "/assets/images/article/img6_crop.png",
+          image: "/assets/images/volunteering/img6_crop.png",
           title: "Packing duty",
           date: "Fri, 14 Apr 2023",
+        },
+        {
+          link: "heavy-lifting",
+          image: "/assets/images/volunteering/img7_crop.png",
+          title: "Heavy Lifting",
+          date: "Mon, 24 Apr 2023",
         },
       ],
     };

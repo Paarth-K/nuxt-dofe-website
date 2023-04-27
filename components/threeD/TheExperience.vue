@@ -7,6 +7,7 @@ import {
   Fog,
   AmbientLight,
   PointLight,
+  Clock,
 } from "three";
 import { Ref } from "vue";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
@@ -49,7 +50,7 @@ const { scene: model } = (await load(
 )) as LoadedModel;
 
 if (model) {
-  model.rotation.y += 1;
+  model.rotation.y += 1.1;
 }
 scene.add(model);
 
@@ -62,8 +63,10 @@ function updateRenderer() {
   renderer.setSize(width, height);
   renderer.render(scene, camera);
 }
-
+let clock: any;
 function setRenderer() {
+  clock = new Clock();
+
   if (experience.value) {
     renderer = new WebGLRenderer({
       canvas: experience.value,
@@ -76,7 +79,19 @@ function setRenderer() {
     controls.enablePan = false;
     controls.enableDamping = true;
     updateRenderer();
+    animate();
   }
+}
+
+function animate() {
+  requestAnimationFrame(animate);
+
+  const time = clock.getElapsedTime();
+
+  model.position.y = Math.sin(time) * 0.8;
+  // model.rotation.y = 1+ Math.sin(time) * 0.02 ;
+
+  updateRenderer();
 }
 
 onMounted(() => {

@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   //     },
   //   },
   // },
-  modules: ["@nuxt/image-edge", "@nuxtjs/partytown"],
+  modules: ["@nuxt/image-edge"],
   image: {
     imagekit: {
       baseURL: "https://ik.imagekit.io/1vyqdxrhm/",

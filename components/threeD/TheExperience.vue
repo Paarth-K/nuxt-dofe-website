@@ -14,7 +14,6 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 let renderer: WebGLRenderer;
 let controls: OrbitControls;
 import { useGLTFModel } from "../../composables/useGLTFModel";
-import { mode } from "process";
 
 const experience: Ref<HTMLCanvasElement | null> = ref(null);
 

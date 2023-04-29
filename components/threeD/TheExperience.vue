@@ -64,6 +64,8 @@ function updateRenderer() {
 }
 let clock: any;
 function setRenderer() {
+  console.log("loaded");
+
   clock = new Clock();
 
   if (experience.value) {

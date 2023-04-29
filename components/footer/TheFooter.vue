@@ -27,7 +27,7 @@
         </div>
         <div class="col-3">
           <client-only>
-            <threeD-The-Experience></threeD-The-Experience>
+            <lazy-threeD-The-Experience></lazy-threeD-The-Experience>
           </client-only>
         </div>
         <div class="col-3">

@@ -2,6 +2,6 @@
   <div>
     <nav-bar></nav-bar>
     <slot></slot>
-    <footer-the-footer></footer-the-footer>
+    <Lazyfooter-the-footer></Lazyfooter-the-footer>
   </div>
 </template>

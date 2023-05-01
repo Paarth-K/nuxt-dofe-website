@@ -94,6 +94,16 @@ export default {
               },
             ],
           },
+          "chopping-again": {
+            title: "Chopping Again!",
+            date: "Mon, 1 May 2023",
+            content: [
+              {
+                image: "/assets/images/volunteering/img8.png",
+                text: "Today we chopped some vegetables again... This time we chopped Okra, into small bits. We had to cut off the tip, and the okra stem as those parts aren't edible. I belive that this time around there was Indian food being made... We were also asked to clean the baskets used to hold cut vegetables, but we found cockroaches in them so we decided to leave that as it was and chop vegetables instead... Overall I enjoyed the experience of going there, except for the cockroach 😬.",
+              },
+            ],
+          },
         },
         "adventurous-journey": {
           "section-name": "Adventurous Journey",

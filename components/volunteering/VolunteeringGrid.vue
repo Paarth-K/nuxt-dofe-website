@@ -50,6 +50,12 @@ export default {
           title: "Heavy Lifting",
           date: "Mon, 24 Apr 2023",
         },
+        {
+          link: "chopping-again",
+          image: "/assets/images/volunteering/img8_crop.png",
+          title: "Chopping Again!",
+          date: "Mon, 1 May 2023",
+        },
       ],
     };
   },

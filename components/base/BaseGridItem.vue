@@ -1,5 +1,10 @@
 <template>
-  <div class="grid-item">
+  <div class="grid-item" @click="checkValid">
+    <BaseErrorPopup
+      v-if="showError.state"
+      :time-visible="showError.timeVisible"
+      :inner-text="showError.errorMessage"
+    ></BaseErrorPopup>
     <article class="article">
       <div class="card">
         <div class="overflow-img">
@@ -26,6 +31,15 @@
 <script>
 export default {
   props: ["linkToArticle", "image", "date", "title", "cameFrom", "disabled"],
+  data() {
+    return {
+      showError: {
+        state: false,
+        timeVisible: 2000,
+        errorMessage: "Looks like this post isn't ready yet...",
+      },
+    };
+  },
   computed: {
     linkToArticleComp() {
       // console.log(this.disabled);
@@ -37,6 +51,16 @@ export default {
     },
     cdnImage() {
       return "tr:pr-true,f-webp," + this.image;
+    },
+  },
+  methods: {
+    checkValid() {
+      if (this.disabled) {
+        this.showError.state = true;
+        setTimeout(() => {
+          this.showError.state = false;
+        }, this.showError.timeVisible + 1500);
+      }
     },
   },
 };

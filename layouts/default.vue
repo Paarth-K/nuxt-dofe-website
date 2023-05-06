@@ -5,3 +5,5 @@
     <Lazyfooter-the-footer></Lazyfooter-the-footer>
   </div>
 </template>
+
+<script setup></script>

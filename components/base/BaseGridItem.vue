@@ -25,10 +25,15 @@
 
 <script>
 export default {
-  props: ["linkToArticle", "image", "date", "title", "cameFrom"],
+  props: ["linkToArticle", "image", "date", "title", "cameFrom", "disabled"],
   computed: {
     linkToArticleComp() {
-      return this.cameFrom + "/article/" + this.linkToArticle;
+      // console.log(this.disabled);
+      if (!this.disabled) {
+        return this.cameFrom + "/article/" + this.linkToArticle;
+      } else {
+        return "";
+      }
     },
     cdnImage() {
       return "tr:pr-true,f-webp," + this.image;

@@ -9,6 +9,7 @@
         :date="item.date"
         :image="item.image"
         :cameFrom="origin"
+        :disabled="item.disabled"
       ></base-grid-item>
     </div>
   </div>

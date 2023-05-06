@@ -19,6 +19,7 @@ export default {
           image: "bl-60/assets/images/AJ/Real/coming_soon_aj.png",
           title: "Real Adventurous Journey (Coming Soon)",
           date: "Fri, 12 Mar 2023",
+          disabled: true,
         },
       ],
     };

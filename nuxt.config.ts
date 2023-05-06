@@ -14,11 +14,13 @@ export default defineNuxtConfig({
   //   },
   // },
   modules: ["@nuxt/image-edge"],
+
   image: {
     imagekit: {
       baseURL: "https://ik.imagekit.io/1vyqdxrhm/",
     },
   },
+
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
@@ -29,4 +31,8 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  devtools: {
+    enabled: true
+  }
 });

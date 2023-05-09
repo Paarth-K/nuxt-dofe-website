@@ -1,6 +1,5 @@
 <template>
   <div>
-    <BackgroundEffect></BackgroundEffect>
     <NuxtLayout>
       <Transition>
         <div>

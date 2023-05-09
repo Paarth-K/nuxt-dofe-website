@@ -45,7 +45,7 @@ type LoadedModel = {
   scene: any;
 };
 const { scene: model } = (await load(
-  "/3DObjects/island/scene.gltf"
+  "/3DObjects/island/scene.glb"
 )) as LoadedModel;
 
 if (model) {

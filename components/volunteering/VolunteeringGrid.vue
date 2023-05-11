@@ -46,7 +46,8 @@ export default {
         },
         {
           link: "heavy-lifting",
-          image: "/assets/images/volunteering/img7_crop.png",
+          image:
+            "/assets/images/volunteering/img7_crop.png?updatedAt=1683259679813",
           title: "Heavy Lifting",
           date: "Mon, 24 Apr 2023",
         },

@@ -4687,6 +4687,21 @@ nuxt-icon@^0.4.0:
     "@iconify/vue" "^4.1.1"
     "@nuxt/kit" "^3.4.2"
 
+nuxt-simple-sitemap@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-2.5.0.tgz#3bbeca17744ccd08722087df7c79c66f054bd72e"
+  integrity sha512-W1w2UvGjFtNniFB+yFMH1DLnREdzkVC5qSF9EhQ9Xvi5acdPNnbHMBArarPF7i7z0uMtjm5kPjvV9S1o7InmJg==
+  dependencies:
+    "@nuxt/kit" "3.4.3"
+    chalk "^5.2.0"
+    defu "^6.1.2"
+    escape-string-regexp "^5.0.0"
+    globby "^13.1.4"
+    knitwork "^1.0.0"
+    pathe "^1.1.0"
+    radix3 "^1.0.1"
+    ufo "^1.1.2"
+
 nuxt@^3.4.1:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.4.3.tgz#0db58e3a70afa3c06744868cd6a13e5f0d83dbf1"

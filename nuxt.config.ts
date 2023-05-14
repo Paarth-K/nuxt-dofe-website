@@ -13,8 +13,12 @@ export default defineNuxtConfig({
   //     },
   //   },
   // },
-  modules: ["@nuxt/image-edge", "nuxt-icon"],
-
+  modules: ["@nuxt/image-edge", "nuxt-icon", "nuxt-simple-sitemap"],
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://example.com",
+    },
+  },
   image: {
     imagekit: {
       baseURL: "https://ik.imagekit.io/1vyqdxrhm/",

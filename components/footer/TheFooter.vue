@@ -15,12 +15,12 @@
             </p>
 
             <address>
-              <i class="fas fa-map-marker-alt text-primary"></i>
+              <icon name="mdi:map-marker" class="text-primary"></icon>
               301 Dover Road, Singapore
             </address>
 
             <div class="email">
-              <i class="fas fa-envelope text-primary"></i>
+              <icon name="material-symbols:mail" class="text-primary"></icon>
               contactme@paarthkukrejadofe.eu.org
             </div>
           </div>

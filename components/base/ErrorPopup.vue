@@ -1,14 +1,16 @@
 <template>
-  <Transition>
-    <div v-if="show" id="error-popup">
-      <div id="border">
-        <div id="content">
-          <i class="fa-solid fa-triangle-exclamation spacing"></i>
-          {{ innerText }}
+  <Teleport to="body">
+    <Transition>
+      <div v-if="show" id="error-popup">
+        <div id="border">
+          <div id="content">
+            <i class="fa-solid fa-triangle-exclamation spacing"></i>
+            {{ innerText }}
+          </div>
         </div>
       </div>
-    </div>
-  </Transition>
+    </Transition>
+  </Teleport>
 </template>
 
 <script setup>

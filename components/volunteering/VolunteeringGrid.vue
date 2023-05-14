@@ -55,7 +55,13 @@ export default {
           link: "chopping-again",
           image: "/assets/images/volunteering/img8_crop.png",
           title: "Chopping Again!",
-          date: "Mon, 1 May 2023",
+          date: "Sat, 30 April 2023",
+        },
+        {
+          link: "movers-and-packers",
+          image: "/assets/images/volunteering/img9_crop.png",
+          title: "Movers & Packers",
+          date: "Sat, 6 May 2023",
         },
       ],
     };

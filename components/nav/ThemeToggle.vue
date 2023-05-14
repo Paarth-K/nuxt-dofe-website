@@ -1,12 +1,15 @@
 <template>
-  <img
-    width="20px"
-    height="20px"
+  <Icon
+    :name="
+      theme == 'dark'
+        ? 'material-symbols:sunny-rounded'
+        : 'material-symbols:dark-mode'
+    "
     @click="toggleTheme"
     id="theme"
     alt="theme_toggle"
     preload="auto"
-  />
+  ></Icon>
 </template>
 <script>
 export default {
@@ -23,11 +26,17 @@ export default {
     } else {
       document.documentElement.dataset.theme = this.theme;
     }
+    if (this.theme == "dark") {
+      this.themeIcon = "material-symbols:sunny-rounded";
+    }
+    if (this.theme == "light") {
+      this.themeIcon = "material-symbols:dark-mode-rounded";
+    }
   },
   watch: {
     theme(theme) {
       document.documentElement.dataset.theme = theme; // this is where the magic happens
-    }, // the `dataset.theme` is the data-theme attribute I set in my SCSS file (highlighted above)
+    }, // the `dataset.theme` is the data-theme attribute I set in my SCSS file
   },
   methods: {
     toggleTheme() {
@@ -37,3 +46,9 @@ export default {
   },
 };
 </script>
+
+<style>
+#theme {
+  color: var(--dark);
+}
+</style>

@@ -20,7 +20,10 @@
             {{ title }}
           </NuxtLink>
           <p class="secondary-title text-secondary display-3">
-            <span><i class="far fa-clock text-primary"></i> {{ date }}</span>
+            <span
+              ><Icon name="ic:twotone-access-time" class="text-primary"></Icon>
+              {{ date }}</span
+            >
           </p>
         </div>
       </div>

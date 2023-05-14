@@ -4,7 +4,7 @@
       <div v-if="show" id="error-popup">
         <div id="border">
           <div id="content">
-            <i class="fa-solid fa-triangle-exclamation spacing"></i>
+            <icon name="lucide:construction" class="spacing"></icon>
             {{ innerText }}
           </div>
         </div>
@@ -43,6 +43,8 @@ onMounted(() => {
 }
 .spacing {
   margin-right: 10px;
+  padding-bottom: 2px;
+  transform: scale(1.3);
 }
 #border {
   border-radius: 15px;

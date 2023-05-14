@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 @import "./theme.scss";
 /* 
     font-family: 'DM Sans', sans-serif;
@@ -21,8 +20,8 @@
   --shadow: none;
   --opac: 0.9;
   --grad: linear-gradient(to right, #ff007f, #00ffff);
-  --theme-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/themes/sun.png");
-  --insta-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/social/instaicowhite.png");
+  // --theme-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/themes/sun.png");
+  // --insta-ico: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/social/instaicowhite.png");
 }
 .preloader {
   position: fixed;
@@ -458,13 +457,8 @@ a {
   background-size: cover;
   border-width: 0;
   outline: none;
-  content: var(--insta-ico);
   transition: scale 0.02s;
-  max-width: 20px;
-  max-height: 20px;
-}
-#insta-icon:hover {
-  content: url("https://ik.imagekit.io/1vyqdxrhm/assets/images/social/instaicocol.png");
+  color: var(--dark);
 }
 #insta-icon:active {
   scale: 0.95;

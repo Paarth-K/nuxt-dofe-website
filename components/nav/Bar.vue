@@ -40,7 +40,15 @@
       <div class="collapse" :class="collapsed">
         <ul class="navbar-nav">
           <a href="https://instagram.com/paarth.kukreja/" target="_blank"
-            ><img height="20px" id="insta-icon" alt="insta" preload="auto" />
+            ><icon
+              @mouseover="instaIco = 'skill-icons:instagram'"
+              @mouseleave="instaIco = 'mdi:instagram'"
+              :name="instaIco"
+              height="20px"
+              id="insta-icon"
+              alt="insta"
+              preload="auto"
+            />
           </a>
           <client-only>
             <nav-theme-toggle></nav-theme-toggle>
@@ -56,6 +64,7 @@ export default {
   data() {
     return {
       collapsedToggled: false,
+      instaIco: "mdi:instagram",
       linksData: [
         {
           to: "/",

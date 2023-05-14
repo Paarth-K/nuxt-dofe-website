@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   //     },
   //   },
   // },
-  modules: ["@nuxt/image-edge"],
+  modules: ["@nuxt/image-edge", "nuxt-icon"],
 
   image: {
     imagekit: {
@@ -33,6 +33,6 @@ export default defineNuxtConfig({
   },
 
   devtools: {
-    enabled: true
-  }
+    enabled: true,
+  },
 });

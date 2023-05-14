@@ -16,7 +16,8 @@
         </div>
         <div class="meta">
           <a href="#" class="link display-2 text-secondary px-1">
-            <i class="fas fa-clock text-primary"></i> {{ articleContent.date }}
+            <icon name="ic:twotone-access-time" class="text-primary"></icon>
+            {{ articleContent.date }}
           </a>
         </div>
       </div>

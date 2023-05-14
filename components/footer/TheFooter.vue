@@ -39,7 +39,7 @@
                 href="https://instagram.com/paarth.kukreja"
                 target="_blank"
                 class="nav-link btn bg-light"
-                ><i class="fab fa-instagram"></i
+                ><Icon class="footer-insta" name="ph:instagram-logo"></Icon
               ></a>
             </div>
           </div>
@@ -48,3 +48,10 @@
     </div>
   </footer>
 </template>
+<style scoped>
+.footer-insta {
+  text-align: center;
+  position: relative;
+  transform: scale(1.3);
+}
+</style>

@@ -16,7 +16,8 @@ export default defineNuxtConfig({
   modules: ["@nuxt/image-edge", "nuxt-icon", "nuxt-simple-sitemap"],
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://example.com",
+      siteUrl:
+        process.env.NUXT_PUBLIC_SITE_URL || "https://paarthkukrejadofe.eu.org",
     },
   },
   image: {

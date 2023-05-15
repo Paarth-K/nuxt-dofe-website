@@ -7,7 +7,7 @@
     ></BaseErrorPopup>
     <article class="article">
       <div class="card">
-        <div class="overflow-img">
+        <div class="overflow-img" :aria-label="title">
           <NuxtLink :href="linkToArticleComp">
             <nuxt-img
               :alt="title"

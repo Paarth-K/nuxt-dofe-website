@@ -3,7 +3,11 @@
   <header id="header" class="shadow bg-light sticky">
     <nav class="container navbar">
       <client-only>
-        <nuxt-link class="nav-brand text-dark" href="/">
+        <nuxt-link
+          class="nav-brand text-dark"
+          href="/"
+          aria-label="Back to Home"
+        >
           <div id="icon2">
             <svg
               id="svg-icon"
@@ -28,17 +32,17 @@
       </button>
       <!-- Collapse on toggle button click -->
       <div class="collapse" :class="collapsed">
-        <ul class="navbar-nav">
+        <div class="navbar-nav">
           <nav-link
             class="nav-link"
             v-for="link in linksData"
             :linkData="link"
           ></nav-link>
-        </ul>
+        </div>
       </div>
       <!-- Collapse on toggle button click -->
       <div class="collapse" :class="collapsed">
-        <ul class="navbar-nav">
+        <div class="navbar-nav">
           <a href="https://instagram.com/paarth.kukreja/" target="_blank"
             ><icon
               @mouseover="instaIco = 'skill-icons:instagram'"
@@ -48,12 +52,13 @@
               id="insta-icon"
               alt="insta"
               preload="auto"
+              aria-label="Go to my Instagram Profile"
             />
           </a>
           <client-only>
             <nav-theme-toggle></nav-theme-toggle>
           </client-only>
-        </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -117,5 +122,8 @@ export default {
 .un-rotate {
   transition: all 0.4s;
   rotate: 0deg;
+}
+.navbar-nav {
+  padding: 10px;
 }
 </style>

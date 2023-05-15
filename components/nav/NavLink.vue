@@ -1,5 +1,7 @@
 <template>
-  <nuxt-link :href="linkData.to">{{ linkData.text }}</nuxt-link>
+  <nuxt-link :aria-label="linkData.text" :href="linkData.to">{{
+    linkData.text
+  }}</nuxt-link>
 </template>
 <script>
 export default {

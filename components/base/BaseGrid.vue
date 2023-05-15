@@ -10,6 +10,7 @@
         :image="item.image"
         :cameFrom="origin"
         :disabled="item.disabled"
+        :aria-label="item.title"
       ></base-grid-item>
     </div>
   </div>

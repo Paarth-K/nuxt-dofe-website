@@ -39,6 +39,7 @@
                 href="https://instagram.com/paarth.kukreja"
                 target="_blank"
                 class="nav-link btn bg-light"
+                aria-label="Instagram Profile link Footer"
                 ><Icon class="footer-insta" name="ph:instagram-logo"></Icon
               ></a>
             </div>

@@ -43,7 +43,10 @@
       <!-- Collapse on toggle button click -->
       <div class="collapse" :class="collapsed">
         <div class="navbar-nav">
-          <a href="https://instagram.com/paarth.kukreja/" target="_blank"
+          <a
+            href="https://instagram.com/paarth.kukreja/"
+            target="_blank"
+            aria-label="Go to my Instagram Profile"
             ><icon
               @mouseover="instaIco = 'skill-icons:instagram'"
               @mouseleave="instaIco = 'mdi:instagram'"
@@ -52,7 +55,6 @@
               id="insta-icon"
               alt="insta"
               preload="auto"
-              aria-label="Go to my Instagram Profile"
             />
           </a>
           <client-only>

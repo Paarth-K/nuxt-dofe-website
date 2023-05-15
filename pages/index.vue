@@ -5,19 +5,18 @@
     </section>
   </div>
 </template>
-<script>
-export default {
-  created() {
-    useHead({
-      title: "Paarth's DofE Website!",
-      meta: [
-        {
-          name: "Home page",
-          content:
-            "Home page of the website",
-        },
-      ],
-    });
-  },
-};
+<script setup>
+useHead({
+  title: "Paarth's DofE Website!",
+  meta: [
+    {
+      name: "Home page",
+      content: "Home page of Paarth Kukreja's Duke of Edinburgh Nuxt Website",
+    },
+  ],
+});
+useServerSeoMeta({
+  title: "Home page",
+  description: "Home page of Paarth Kukreja's Duke of Edinburgh Nuxt Website",
+});
 </script>

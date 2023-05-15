@@ -9,7 +9,12 @@
       <div class="card">
         <div class="overflow-img">
           <NuxtLink :href="linkToArticleComp">
-            <nuxt-img provider="imagekit" :src="cdnImage" class="img-fluid" />
+            <nuxt-img
+              :alt="title"
+              provider="imagekit"
+              :src="cdnImage"
+              class="img-fluid"
+            />
           </NuxtLink>
         </div>
         <div class="card-body text-center px-1">

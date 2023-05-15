@@ -9,6 +9,13 @@ export default {
   created() {
     useHead({
       title: "Adventurous Journey",
+      meta: [
+        {
+          name: "Adventurous Journey page",
+          content:
+            "Browse the practise adventurous journey, and the real adventurous journey",
+        },
+      ],
     });
   },
 };

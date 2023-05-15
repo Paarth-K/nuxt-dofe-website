@@ -10,6 +10,13 @@ export default {
   created() {
     useHead({
       title: "Paarth's DofE Website!",
+      meta: [
+        {
+          name: "Home page",
+          content:
+            "Home page of the website",
+        },
+      ],
     });
   },
 };

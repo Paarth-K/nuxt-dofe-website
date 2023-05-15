@@ -24,7 +24,7 @@
         </nuxt-link>
       </client-only>
       <button @click="toggleCollapse" class="toggle-button" :class="rotate">
-        <span><i class="fa-solid fa-chevron-down"></i></span>
+        <span><icon name="fa-chevron-down"></icon></span>
       </button>
       <!-- Collapse on toggle button click -->
       <div class="collapse" :class="collapsed">

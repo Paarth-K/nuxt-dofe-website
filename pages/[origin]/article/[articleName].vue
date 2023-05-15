@@ -105,12 +105,12 @@ export default {
             ],
           },
           "movers-and-packers": {
-            title: "Chopping Again!",
+            title: "Movers & Packers",
             date: "Sat, 6 May 2023",
             content: [
               {
                 image: "/assets/images/volunteering/img9.png",
-                text: "Today, we accomplished a lot in just one hour! We packaged the rice, helped move the rice to be packaged, and helped move the packaged rice into racks for transport! We also met some employees from DBS who were there as early as 8 am on a Saturday, which was quite surprising. Overall, it was another enjoyable day of volunteering. I believe we were making plain boiled rice with some vegetables; I'm not too sure what it was called, though.",
+                text: "Today, we accomplished a lot in just one hour! We packaged some rice, helped move the rice to be packaged, and helped move the packaged rice into racks for transport! We also met some employees from DBS who were there as early as 8 am on a Saturday, which was quite surprising. Overall, it was another enjoyable day of volunteering. I believe we were making plain boiled rice with some vegetables; I'm not too sure what it was called though.",
               },
             ],
           },

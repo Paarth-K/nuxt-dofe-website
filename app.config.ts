@@ -1,4 +1,4 @@
-// app.config.ts
+// app.config.ts;
 export default defineAppConfig({
   nuxtIcon: {
     size: "19px", // default <Icon> size applied

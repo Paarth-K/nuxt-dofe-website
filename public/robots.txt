@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://paarthkukrejadofe.eu.org/sitemap.xml
+Sitemap: https://www.paarthkukrejadofe.eu.org/sitemap.xml

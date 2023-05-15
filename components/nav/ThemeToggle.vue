@@ -41,7 +41,7 @@ export default {
   methods: {
     toggleTheme() {
       this.theme = this.theme === "light" ? "dark" : "light"; // switch themes based on current value of `this.theme`
-      localStorage.setItem("theme", this.theme);
+      localStorage.setItem("theme", this.theme, { sameSite: "strict" });
     },
   },
 };

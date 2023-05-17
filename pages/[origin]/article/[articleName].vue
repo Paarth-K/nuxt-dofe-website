@@ -122,11 +122,15 @@ export default {
             date: "Wed, 22 Mar 2023",
             content: [
               {
-                image: "none",
-                text: '<iframe id="sumytvid" class="ytvid" src="https://www.youtube.com/embed/MUsb_jLLVm4?vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen ></iframe>',
+                // text: '<iframe id="sumytvid" class="ytvid" src="https://www.youtube.com/embed/MUsb_jLLVm4?vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen ></iframe>',
+                video: {
+                  id: "MUsb_jLLVm4",
+                  title: "Practice Adventurous Journey",
+                  thumbnail:
+                    "/assets/images/AJ/Prac/prac_aj_lastcheckpoint.png",
+                },
               },
               {
-                image: "none",
                 text: "Today was had our Practise AJ! It was really fun. We had a map (image below), which we were given, and we had to plan our route and how we get around. As a requirement, of the award, we had to be offline the whole time, and that meant leaving our SIM card back at school.",
               },
               {
@@ -138,7 +142,6 @@ export default {
                 text: "Next was the journey to the next Checkpoint (3 on the map) This was mostly just walking down the highway, to the Ulu Pandan Road turn, and then the entrance to the Canal, unfortunately I didn't take a picture at that Checkpoint, but there wasn't much to see anyways",
               },
               {
-                image: "none",
                 text: "Next was the journey down the canal to the Bridge (4 on the map) It was just a walk down the Canal, and nothing much else... But we did find a Swan on the way!",
               },
               {
@@ -151,7 +154,6 @@ export default {
               },
               {
                 image: "/assets/images/AJ/Prac/prac_aj_rc_selfie.png",
-                text: "",
               },
               {
                 image: "/assets/images/AJ/Prac/prac_aj_lastcheckpoint.png",

@@ -285,6 +285,7 @@ a {
 #icon2:hover {
   transition: all 0.5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
 }
 .nav-brand {
   font-family: "DM Sans", sans-serif;
@@ -316,6 +317,7 @@ a {
 }
 
 .nav-link {
+  transition: color 0.3s;
   font-size: 18px;
   margin: 12px;
   color: var(--dark);
@@ -324,6 +326,7 @@ a {
 }
 
 .nav-link:hover {
+  transition: color 0.15s;
   color: var(--primary-color);
 }
 

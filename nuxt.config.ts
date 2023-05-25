@@ -13,6 +13,9 @@ export default defineNuxtConfig({
   //     },
   //   },
   // },
+  experimental: {
+    componentIslands: true,
+  },
   modules: ["@nuxt/image-edge", "nuxt-icon", "nuxt-simple-sitemap"],
   runtimeConfig: {
     public: {

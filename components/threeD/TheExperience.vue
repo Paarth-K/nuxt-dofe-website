@@ -17,7 +17,6 @@ import { useGLTFModel } from "../../composables/useGLTFModel";
 
 const experience: Ref<HTMLCanvasElement | null> = ref(null);
 
-// const { width, height } = [800, 400]
 const width = 350;
 const height = 350;
 

@@ -1,10 +1,12 @@
 <template>
-  <div class="grid-item" @click="checkValid">
-    <BaseErrorPopup
-      v-if="showError.state"
-      :time-visible="showError.timeVisible"
-      :inner-text="showError.errorMessage"
-    ></BaseErrorPopup>
+  <div :style="pointerEvent" class="grid-item" @click="checkValid">
+    <div v-if="disabled">
+      <BaseErrorPopup
+        v-if="showError.state"
+        :time-visible="showError.timeVisible"
+        :inner-text="showError.errorMessage"
+      ></BaseErrorPopup>
+    </div>
     <article class="article">
       <div class="card">
         <div class="overflow-img" :aria-label="title">
@@ -46,6 +48,7 @@ export default {
         timeVisible: 2000,
         errorMessage: "Looks like this post isn't ready yet...",
       },
+      pointerEvent: "",
     };
   },
   computed: {
@@ -65,7 +68,9 @@ export default {
     checkValid() {
       if (this.disabled) {
         this.showError.state = true;
+        this.pointerEvent = "pointer-events: none;";
         setTimeout(() => {
+          this.pointerEvent = "";
           this.showError.state = false;
         }, this.showError.timeVisible + 1500);
       }

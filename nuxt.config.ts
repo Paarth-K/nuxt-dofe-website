@@ -25,7 +25,11 @@ export default defineNuxtConfig({
         "https://www.paarthkukrejadofe.eu.org",
     },
   },
-
+  routeRules: {
+    // Static page generated on-demand, revalidates in background (ISG)
+    "/volunteering/**": { isr: true },
+    "/adventurous-journey/**": { isr: true },
+  },
   image: {
     imagekit: {
       baseURL: "https://ik.imagekit.io/1vyqdxrhm/",

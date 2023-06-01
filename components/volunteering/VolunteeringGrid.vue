@@ -63,6 +63,12 @@ export default {
           title: "Movers & Packers",
           date: "Sat, 6 May 2023",
         },
+        {
+          link: "cabbage-choppers",
+          image: "/assets/images/volunteering/img10_crop.png",
+          title: "Cabbage Choppers",
+          date: "Sat, 27 May 2023",
+        },
       ],
     };
   },

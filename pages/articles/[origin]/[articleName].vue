@@ -114,6 +114,16 @@ export default {
               },
             ],
           },
+          "cabbage-choppers": {
+            title: "Cabbage Choppers",
+            date: "Sat, 27 May 2023",
+            content: [
+              {
+                image: "/assets/images/volunteering/img10.png",
+                text: "Today we chopped some cabbage! It was nothing special, however, we learnt a new and efficient way to cut cabbage. Initially, we were chopping each leaf at a time into bits, but then we were told by the other helpful volunteers about a much faster way to chop it.",
+              },
+            ],
+          },
         },
         "adventurous-journey": {
           "section-name": "Adventurous Journey",
@@ -152,9 +162,7 @@ export default {
                 image: "/assets/images/AJ/Prac/prac_aj_sb.png",
                 text: 'Lastly it was a long walk, almost 1.5km down the Rail corridor (1 on the map) This was a not to eventful walk, nothing much happened here, but the views were nice, as it was a "forest" on all sides (image below).',
               },
-              {
-                image: "/assets/images/AJ/Prac/prac_aj_rc_selfie.png",
-              },
+
               {
                 image: "/assets/images/AJ/Prac/prac_aj_lastcheckpoint.png",
                 text: 'Overall, I really enjoyed this experience, the ability to walk navigate without a google maps, and only a physical map was really eye opening, and made us realise how difficult it is to get around without technology. I enjoyed all the planning required for this, each of bringing sufficient resources like drinks and snacks to sustain us for the long walk. Be sure to watch the short <a class="text-primary" href="#sumytvid">summary video</a> showing the walk in a few short minutes.',

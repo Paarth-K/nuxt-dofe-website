@@ -55,7 +55,7 @@ export default {
     linkToArticleComp() {
       // console.log(this.disabled);
       if (!this.disabled) {
-        return this.cameFrom + "/article/" + this.linkToArticle;
+        return "/articles" + this.cameFrom + "/" + this.linkToArticle;
       } else {
         return "";
       }

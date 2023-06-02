@@ -162,9 +162,10 @@ export default {
                 image: "/assets/images/AJ/Prac/prac_aj_sb.png",
                 text: 'Lastly it was a long walk, almost 1.5km down the Rail corridor (1 on the map) This was a not to eventful walk, nothing much happened here, but the views were nice, as it was a "forest" on all sides (image below).',
               },
-
               {
-                image: "/assets/images/AJ/Prac/prac_aj_lastcheckpoint.png",
+                image: "/assets/images/AJ/Prac/prac_aj_rc_selfie.png",
+              },
+              {
                 text: 'Overall, I really enjoyed this experience, the ability to walk navigate without a google maps, and only a physical map was really eye opening, and made us realise how difficult it is to get around without technology. I enjoyed all the planning required for this, each of bringing sufficient resources like drinks and snacks to sustain us for the long walk. Be sure to watch the short <a class="text-primary" href="#sumytvid">summary video</a> showing the walk in a few short minutes.',
               },
             ],

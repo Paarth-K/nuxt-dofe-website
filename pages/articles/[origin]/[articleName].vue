@@ -130,7 +130,7 @@ export default {
             content: [
               {
                 image: "/assets/images/volunteering/img11.png",
-                text: "Today we did some sorting of food. We sorted packaged food from big carton boxes given as a charity, into piles of the specific type of food. We sorted frozen packaged food like Chicken, Shrimp, Sausages, Cheese, Cheese Balls and prawns into Separate. I presume it was to speed up finding them later when they get used, as there were many things to look through, and they were all randomly placed in cartons.",
+                text: "Today I did some sorting of food. I sorted packaged food from big carton boxes given as a charity, into piles of the specific type of food. I sorted frozen packaged food like Chicken, Shrimp, Sausages, Cheese, Cheese Balls and prawns into Separate. I presume it was to speed up finding them later when they get used, as there were many things to look through, and they were all randomly placed in cartons.",
               },
             ],
           },

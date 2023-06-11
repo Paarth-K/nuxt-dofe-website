@@ -126,7 +126,7 @@ export default {
           },
           sorters: {
             title: "Sorters",
-            date: "Sat, 10 June 2023",
+            date: "Sat, 10 Jun 2023",
             content: [
               {
                 image: "/assets/images/volunteering/img11.png",

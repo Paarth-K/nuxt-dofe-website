@@ -96,7 +96,7 @@ export default {
           },
           "chopping-again": {
             title: "Chopping Again!",
-            date: "Sat, 30 April 2023",
+            date: "Sat, 30 Apr 2023",
             content: [
               {
                 image: "/assets/images/volunteering/img8.png",
@@ -121,6 +121,16 @@ export default {
               {
                 image: "/assets/images/volunteering/img10.png",
                 text: "Today we chopped some cabbage! It was nothing special, however, we learnt a new and efficient way to cut cabbage. Initially, we were chopping each leaf at a time into bits, but then we were told by the other helpful volunteers about a much faster way to chop it.",
+              },
+            ],
+          },
+          sorters: {
+            title: "Sorters",
+            date: "Sat, 10 June 2023",
+            content: [
+              {
+                image: "/assets/images/volunteering/img11.png",
+                text: "Today we did some sorting of food. We sorted packaged food from big carton boxes given as a charity, into piles of the specific type of food. We sorted frozen packaged food like Chicken, Shrimp, Sausages, Cheese, Cheese Balls and prawns into Separate. I presume it was to speed up finding them later when they get used, as there were many things to look through, and they were all randomly placed in cartons.",
               },
             ],
           },

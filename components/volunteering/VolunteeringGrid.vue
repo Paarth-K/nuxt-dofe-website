@@ -69,6 +69,12 @@ export default {
           title: "Cabbage Choppers",
           date: "Sat, 27 May 2023",
         },
+        {
+          link: "sorters",
+          image: "/assets/images/volunteering/img11.png",
+          title: "Sorters",
+          date: "Sat, 10 Jun 2023",
+        },
       ],
     };
   },

@@ -182,7 +182,7 @@ export default {
           },
           "real-adventurous-journey": {
             title: "Real Adventurous Journey",
-            date: "Fri, 12 Mar 2023 - Sat, 13 Mar 2023",
+            date: "Fri, 12 May 2023 - Sat, 13 May 2023",
             content: [
               {
                 image: "/assets/images/AJ/Real/pulau_sign.png",

@@ -16,10 +16,9 @@ export default {
         },
         {
           link: "real-adventurous-journey",
-          image: "bl-60/assets/images/AJ/Real/coming_soon_aj.png",
-          title: "Real Adventurous Journey (Coming Soon)",
-          date: "Fri, 12 Mar 2023",
-          disabled: true,
+          image: "/assets/images/AJ/Real/real_aj_preview_pic.png",
+          title: "Real Adventurous Journey",
+          date: "Fri, 12 Mar 2023 - Sat, 13 Mar 2023",
         },
       ],
     };

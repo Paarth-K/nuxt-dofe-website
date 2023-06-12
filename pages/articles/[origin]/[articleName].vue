@@ -1,12 +1,12 @@
 <template>
   <div>
-    <base-article-content
+    <base-article-layout
       :main-section-name="mainSectionName"
       :main-section-path="mainSectionPath"
       :article-content="articleContent"
       v-if="articleContent"
     >
-    </base-article-content>
+    </base-article-layout>
   </div>
 </template>
 <script>
@@ -177,6 +177,93 @@ export default {
               },
               {
                 text: 'Overall, I really enjoyed this experience, the ability to walk navigate without a google maps, and only a physical map was really eye opening, and made us realise how difficult it is to get around without technology. I enjoyed all the planning required for this, each of bringing sufficient resources like drinks and snacks to sustain us for the long walk. Be sure to watch the short <a class="text-primary" href="#sumytvid">summary video</a> showing the walk in a few short minutes.',
+              },
+            ],
+          },
+          "real-adventurous-journey": {
+            title: "Real Adventurous Journey",
+            date: "Fri, 12 Mar 2023 - Sat, 13 Mar 2023",
+            content: [
+              {
+                image: "/assets/images/AJ/Real/pulau_sign.png",
+                text: "This was it, this was our Real AJ! The highlight of the Duke of Edinburgh award, and what all of us were looking forward to since the beginning of the award.",
+              },
+              {
+                image: "/assets/images/AJ/Real/real_aj_map.png",
+                text: "Like the Practice AJ we were given a map of Pulau Ubin, and checkpoints, and we had to find a route through them, following them in order of course. We were only given a string and a key on the map to estimate distances between the checkpoints.",
+              },
+              {
+                image: "/assets/images/AJ/Real/boat_there.png",
+                text: "After an incredibly long Bus ride, and a boat ride, we finally made it to the Island. This was it, the beginning of our journey!",
+              },
+              {
+                image: "/assets/images/AJ/Real/new_map.png",
+                text: "On the Island, we found a map, which was arguably better than the one we were given, so we took a photo of it, for future reference. And after that, we were off, to our first checkpoint (number 7 on our map)",
+              },
+              {
+                image: "/assets/images/AJ/Real/sensory_trail.png",
+                text: "This is us at our first checkpoint, the sensory trail, this one was a very short walk away from the shelter (number 6 on our map) where we started at. We decided to get our drinks out, which were frozen! And take a photo. After that, we were off to Belatok Hut!",
+              },
+              {
+                image: "/assets/images/AJ/Real/puaka_hut.png",
+                text: "This is us at Belatok Hut. It was an interesting checkpoint, and we met a teacher there waiting for us! After that, we were off again on our very long walk! I won't bore you with all the checkpoints, and instead, skip to an interesting one (number 3 on our map)",
+              },
+              {
+                image: "/assets/images/AJ/Real/top_of_hill.png",
+                text: "This is the Puaka Hilltop View Point. This was a very difficult checkpoint to get to as it was a spiral hill of sorts, and it kept on going, there were very steep points and extremely rocky paths uphill, but we persevered and got through to the top for this beautiful view!",
+              },
+              {
+                image: "/assets/images/AJ/Real/top_of_hill_view.png",
+              },
+              {
+                image: "/assets/images/AJ/Real/campsite.png",
+                text: "After a long long walk, we finally made it to the Campsite! We were exhausted by then, carrying a very heavy bag and having walked 25km! We messed around for a bit, and then at night we had the most amazing view ever",
+              },
+              {
+                image: "/assets/images/AJ/Real/night_view_campsite.png",
+                text: "After a long long walk, we finally made it to the Campsite! We were exhausted by then, carrying a very heavy bag and having walked 25km! We messed around for a bit, and then at night we had the most amazing view ever",
+              },
+              {
+                text: "We even told horror stories! We were also trying to get night vision that's why we had one eye closed.",
+                video: {
+                  id: "W78hScD28iM",
+                  title: "Horror Stories at Night, Adventurous Journey 2023",
+                  thumbnail:
+                    "/assets/images/AJ/Real/night_stories_thumbnail.png",
+                },
+              },
+              {
+                image: "/assets/images/AJ/Real/dev_night_image.png",
+                text: "It was a very long night, the tents were extremely hot and cramped, especially with 2 of us per tent, and things got very stuffy very quickly. So me and Dev (my friend from Volunteering, and the Practice AJ) decided to take a walk along the campsite, and just relax. I think we got about 1 hour of sleep that night. The view next morning though, was so worth it.",
+              },
+              {
+                image: "/assets/images/AJ/Real/campsite_morning_view.png",
+              },
+              {
+                text: "Most of what happened on Day 2 was pretty boring, so here's just a bunch of images and videos of what happened",
+              },
+              {
+                image: "/assets/images/AJ/Real/belatok_hut.png",
+              },
+              {
+                image: "/assets/images/AJ/Real/jetti.png",
+              },
+              {
+                image: "/assets/images/AJ/Real/tall_tower2.png",
+              },
+              {
+                image: "/assets/images/AJ/Real/tall_tower1.png",
+                text: "This place was very interesting, it was a very tall tower giving panoramic views of the island. It was an amazing view up there, and also a lot of stairs to climb up there! Anyways, back to the images",
+              },
+              {
+                image: "/assets/images/AJ/Real/mamam_campsite1.png",
+              },
+              {
+                image: "/assets/images/AJ/Real/mamam_campsite2.png",
+                text: "This was it, the last checkpoint of our journey. We were all so exhausted and could wait to go home, Unfortunately, we didn't get any more photos after this point, our main objective was making it to school. Most of us also slept on the bus ride back!",
+              },
+              {
+                text: "Overall, I'd say this was a very fun experience. I had a lot of fun with my friends, even though I got multiple blisters from all that walking, it was an amazing experience, and I'm grateful for the opportunity this award has given us, to have fun, and make memories along the way as well. Till next time!",
               },
             ],
           },

@@ -11,12 +11,12 @@ useHead({
   meta: [
     {
       name: "Home page",
-      content: "Home page of Paarth Kukreja's Duke of Edinburgh Nuxt Website",
+      content: "Home page of Paarth Kukreja's Duke of Edinburgh Website",
     },
   ],
 });
 useServerSeoMeta({
-  title: "Home page",
-  description: "Home page of Paarth Kukreja's Duke of Edinburgh Nuxt Website",
+  title: "Paarth's DofE Website",
+  description: "Home page of Paarth Kukreja's Duke of Edinburgh Website",
 });
 </script>

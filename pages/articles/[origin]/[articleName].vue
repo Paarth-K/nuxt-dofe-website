@@ -221,7 +221,6 @@ export default {
               },
               {
                 image: "/assets/images/AJ/Real/night_view_campsite.png",
-                text: "After a long long walk, we finally made it to the Campsite! We were exhausted by then, carrying a very heavy bag and having walked 25km! We messed around for a bit, and then at night we had the most amazing view ever",
               },
               {
                 text: "We even told horror stories! We were also trying to get night vision that's why we had one eye closed.",

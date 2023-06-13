@@ -16,7 +16,8 @@ export default {
         },
         {
           link: "real-adventurous-journey",
-          image: "/assets/images/AJ/Real/real_aj_preview_pic.png",
+          image:
+            "/assets/images/AJ/Real/real_aj_preview_pic.png?updatedAt=1686545206648",
           title: "Real Adventurous Journey",
           date: "Fri, 12 May 2023 - Sat, 13 May 2023",
         },

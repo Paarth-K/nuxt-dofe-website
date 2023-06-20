@@ -12,6 +12,7 @@
           provider="imagekit"
           src="/assets/images/home/dofe_bronze.jpeg"
           class="DofeBronzeImage"
+          alt="dofe bronze logo"
         ></NuxtImg>
       </div>
     </div>

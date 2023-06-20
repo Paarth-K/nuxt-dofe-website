@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap");
 @import "./theme.scss";
+
 /* 
     font-family: 'DM Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -595,6 +596,7 @@ a {
   #footer-bg {
     display: none;
   }
+
   .nav-brand {
     position: relative;
     // left: 20px;
@@ -615,6 +617,25 @@ a {
   .toggle-button {
     display: initial;
     color: var(--dark);
+  }
+  .HomeGrid {
+    grid-template-columns: auto !important;
+  }
+  .DofeBronzeImage {
+    width: 80vw !important;
+
+    text-align: center;
+  }
+  .DofeBronzeImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .TitleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
   }
   .nav-brand {
     position: relative;

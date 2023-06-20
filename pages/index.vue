@@ -1,8 +1,6 @@
 <template>
   <div>
-    <section id="posts">
-      <volunteering-grid></volunteering-grid>
-    </section>
+    <base-home-page></base-home-page>
   </div>
 </template>
 <script setup>

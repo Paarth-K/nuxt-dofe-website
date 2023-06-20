@@ -32,6 +32,7 @@
       </button>
       <!-- Collapse on toggle button click -->
       <div class="collapse" :class="collapsed">
+        <nav-focus-pull></nav-focus-pull>
         <div class="navbar-nav">
           <nav-link
             class="nav-link"
@@ -117,6 +118,7 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 .rotate {
   transition: all 0.4s;
   rotate: 180deg;

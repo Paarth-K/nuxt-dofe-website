@@ -1,5 +1,5 @@
 Make sure to install the dependencies:
-# This project uses Yarn ONLY, npm install will fail.
+# This project uses Yarn ONLY, npm install will fail to install.
 ```bash
 yarn install
 ```

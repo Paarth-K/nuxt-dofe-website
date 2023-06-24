@@ -1,14 +1,14 @@
 Make sure to install the dependencies:
-# npm
+# This project uses Yarn ONLY, npm install will fail.
 ```bash
-npm install
+yarn install
 ```
 
 
 ## Development Server
 
 ```bash
-npm run dev
+yarn run dev
 ```
 
 
@@ -17,13 +17,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

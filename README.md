@@ -1,6 +1,8 @@
 Make sure to install the dependencies:
 # npm
+```bash
 npm install
+```
 
 
 ## Development Server

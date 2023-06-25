@@ -1,4 +1,4 @@
 import { defineNitroConfig } from "nitropack/config";
 export default defineNitroConfig({
-  preset: "vercel-edge",
+  preset: "netlify-builder",
 });

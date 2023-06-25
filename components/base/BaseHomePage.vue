@@ -10,7 +10,7 @@
       <div class="DofeBronzeImageContainer">
         <NuxtImg
           provider="imagekit"
-          src="/assets/images/home/dofe_bronze.jpeg"
+          src="tr:f-jpg,pr-true,/assets/images/home/dofe_bronze.jpeg"
           class="DofeBronzeImage"
           alt="dofe bronze logo"
         ></NuxtImg>

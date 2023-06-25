@@ -18,6 +18,7 @@ export default defineNuxtConfig({
   //   componentIslands: true,
   // },
   modules: ["@nuxt/image-edge", "nuxt-icon", "nuxt-simple-sitemap"],
+
   runtimeConfig: {
     public: {
       siteUrl:
@@ -34,6 +35,7 @@ export default defineNuxtConfig({
     imagekit: {
       baseURL: "https://ik.imagekit.io/1vyqdxrhm/",
     },
+    inject: true,
   },
 
   app: {

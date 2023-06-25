@@ -8,10 +8,9 @@
 
           <div class="secondary-title text-secondary">
             <p class="mt-2">
-              Hi! My name is Paarth. I am currently studying in Dover Court
+              Hi! My name is Paarth. I'm currently studying in Dover Court
               International School in Singapore. I made this website to improve
-              my skills on web development, for the Duke of Edinburgh award
-              Project.
+              my skills in web development, for the Duke of Edinburgh award.
             </p>
 
             <address>
@@ -21,7 +20,7 @@
 
             <div class="email">
               <icon name="material-symbols:mail" class="text-primary"></icon>
-              contactme@paarthkukrejadofe.eu.org
+              contact@paarthkukrejadofe.eu.org
             </div>
           </div>
         </div>

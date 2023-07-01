@@ -55,7 +55,6 @@
               height="20px"
               id="insta-icon"
               alt="insta"
-              preload="auto"
             />
           </a>
           <client-only>

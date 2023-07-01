@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Kalam&family=Poppins&family=Roboto&family=Space+Mono&display=swap");
 @import "./theme.scss";
 
 /* 
@@ -116,8 +116,8 @@ a {
 }
 
 .text-title {
-  font-family: "DM Sans", sans-serif;
-  font-weight: bold;
+  font-family: "DM Sans", sans-serif !important;
+  // font-weight: bold;
 }
 
 .secondary-title {
@@ -279,8 +279,8 @@ a {
   height: 7vh;
 }
 #icon2 {
-  width: 5vh;
-  height: 5vh;
+  width: 45px;
+  height: 45px;
   transition: all 0.5s;
 }
 #icon2:hover {

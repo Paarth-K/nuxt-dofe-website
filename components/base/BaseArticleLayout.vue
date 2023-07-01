@@ -10,7 +10,7 @@
           }}</nuxt-link>
         </div>
         <div class="title">
-          <h2 class="text-title text-dark display-1">
+          <h2 class="text-title text-dark display-1 article-title">
             {{ articleContent.title }}
           </h2>
         </div>
@@ -44,3 +44,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.article-title {
+  font-weight: normal !important;
+}
+</style>

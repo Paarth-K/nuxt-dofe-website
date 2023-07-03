@@ -17,6 +17,154 @@ export default {
       //   mainSectionName: 'boo',
       //   mainSectionPath: '/',
       articles: {
+        dev: {
+          "section-name": "Development Logs",
+          "development-journey": {
+            title: "Development Journey",
+            date: "Tue, 10 Jan 2023 - Mon, 3 Jul 2023",
+            content: [
+              {
+                image:
+                  "/assets/images/devlogs/img1.png?updatedAt=1688389654188",
+                text: 'I requested the rights to own a "eu.org" domain, (paarthkukrejadofe.eu.org) and got it! I then set up Cloudflare (as DNS only) on my website.',
+              },
+              {
+                image: "/assets/images/devlogs/img2.png",
+                text: "I've made a header section for my website ",
+              },
+              {
+                image: "/assets/images/devlogs/img3.png",
+                text: "I've set up the website by registering the domain and hosting it as well. I will now make my website look better...",
+              },
+              {
+                image: "/assets/images/devlogs/img4.png",
+                text: "I've made the basic template of the logs, I will next format this to make it more like a grid shape, and look aesthetically better",
+              },
+              {
+                image: "/assets/images/devlogs/img5.png",
+                text: "I've made the main section more aesthetically pleasing, with some dummy images and data, and in a more grid-like layout, next I plan to make a footer with the about section.",
+              },
+              {
+                image: "/assets/images/devlogs/img6.png",
+                text: "I made a footer section for my website, this includes what the website is about, with a working contact email.",
+              },
+              { image: "/assets/images/devlogs/img7.png" },
+              {
+                image: "/assets/images/devlogs/img8.png",
+                text: "I've made a dark and light theme for my website, this includes changing the colour of the social icons, and the moon to a sun, and sun to a moon to indicate the toggleable theme. I have also made it so that it saves the theme preference in the browser as a cookie, so the next time you load the page, it will be the correct theme by default. I have also made the button animated when clicked",
+              },
+              { image: "/assets/images/devlogs/img9.png" },
+              {
+                image: "/assets/images/devlogs/img10.png",
+                text: "I've made custom error pages which remember the theme you last used and will change them accordingly",
+              },
+              {
+                image: "/assets/images/devlogs/img11.png",
+                text: "I've made an Article Page, fully compatible with my dark theme.",
+              },
+              {
+                image: "/assets/images/devlogs/img12.png",
+                text: "I've made my first post, this includes a write up on the thing I've done for volunteering",
+              },
+              {
+                image: "/assets/images/devlogs/img13.png",
+                text: "I've made a cool glow effect (only on the dark theme) that illuminates my website when I move my mouse, this is also now on the error pages.",
+              },
+              {
+                image: "/assets/images/devlogs/img14.png",
+              },
+              {
+                image: "/assets/images/devlogs/img15.png",
+                text: "I've modified my error pages to have a hacked text effect, which rapidly changes the text of the content (when hovered on), and slowly corrects it to the desired text",
+              },
+              {
+                image: "/assets/images/devlogs/img16.png",
+                text: "I've made the Instagram icon have colour when hovered over, this is done by calling assets from my CDN in advance, and then loading them when JS detects a hover over the icon, replacing the logo.",
+              },
+              {
+                image: "/assets/images/devlogs/img17.png",
+                text: "I've made my website interactive and respond to different screen sizes. Ive done this using media queries to request the screen size of the device and change accordingly",
+              },
+              {
+                image: "/assets/images/devlogs/img18.png",
+                text: "I've made my website even more interactive, supporting smaller screen sizes...",
+              },
+              {
+                image: "/assets/images/devlogs/img19.png",
+                text: "I made a separate page for my Adventurous Journey, compatible with the mobile layout, and also compatible with the light mode. The Real AJ still hasn't happened yet so it has a Coming Soon tag above it, with a blurred image. I will next make a blog for the Practise AJ",
+              },
+              {
+                image: "/assets/images/devlogs/img20.png",
+                text: "I embedded a YouTube video in my page for the Practise AJ. I did this using iframe tags, and styled it to be interactive to all screen sizes. I also have finished writing an article about the Practise walk, with multiple images, and a small writeup about our journey. It is compatible with all screen sizes, and has links to scroll to the relevant images mentioned.",
+              },
+              {
+                image: "/assets/images/devlogs/img21.png",
+                text: "After careful consideration, I've decided to remake my website entirely! I will make it using the Nuxt3 Framework (using Vue) I've been learning. This would make my website easier to make, and make making new articles easier to handle. This would also help in making the website load faster, and more responsive. It would look the exact same though, as it will be more of a migration than a re-make, but this will be difficult nonetheless as Nuxt3 is very different to standard HTML CSS AND JS. I have started the base template and have added some custom components that I will need for my project",
+              },
+              { image: "/assets/images/devlogs/img22.png" },
+              {
+                image: "/assets/images/devlogs/img23.png",
+                text: "I have made a navigation bar component with working (sort of) links. This looks very similar to the previous one, except it now uses components to display links instead of repetitive HTML code",
+              },
+              {
+                image: "/assets/images/devlogs/img24.png",
+              },
+              {
+                image: "/assets/images/devlogs/img25.png",
+              },
+              {
+                image: "/assets/images/devlogs/img26.png",
+                text: "I have made a basic grid layout again, I used components to create an easy-to-repeat grid item that can be made using a v-for loop repeatedly with different content. This lets me store data as JSON and is much easier to load rather than repeatedly re-making the entire article page.",
+              },
+              {
+                image: "/assets/images/devlogs/img27.png",
+                text: "I've made a basic router with Vue (outdated, I'm using file based with Nuxt), this is responsible for the URL section of the page and will tell which components to load when the URL changes.",
+              },
+              {
+                image: "/assets/images/devlogs/img28.png",
+                text: "I've made a basic router with Vue (outdated, I'm using file based with Nuxt), this is responsible for the URL section of the page and will tell which components to load when the URL changes.",
+              },
+              {
+                image: "/assets/images/devlogs/img29.png",
+              },
+              {
+                image: "/assets/images/devlogs/img30.png",
+                text: "I've recreated the cool glow effect! I did this by making a component that handles the blob, the blur and the scripts to make it run",
+              },
+              {
+                image: "/assets/images/devlogs/img31.png",
+              },
+              {
+                image: "/assets/images/devlogs/img32.png",
+              },
+              {
+                image: "/assets/images/devlogs/img33.png",
+                text: "I've made a similar-looking article grid page with Vue. I did this by making a BaseGrid component, which passes down data to the base grid item component, which then styles, and renders the article on the page. It uses router links to let Vue know which page to take the router to.",
+              },
+              {
+                image: "/assets/images/devlogs/img34.png",
+              },
+              {
+                image: "/assets/images/devlogs/img35.png",
+              },
+              {
+                image: "/assets/images/devlogs/img36.png",
+              },
+              {
+                image: "/assets/images/devlogs/img37.png",
+                text: "I've made a very similar-looking article page using Vue, I created a TheArticle component with the BaseArticleContent component which houses the BasePostContent component. I then pass data down these articles using props. The BasePostContent is then repeated for the number of times there is an image and content pair of data",
+              },
+              {
+                image: "/assets/images/devlogs/img38.png",
+                text: "I've made a very nice looking Home Screen at Last! I also made a site icon… It has a hover effect when hovering over the DofE logo, and a check this out indicator that only activates when the person visits the site for the first time. This pulls the attention to the nav bar, so they can explore my articles!",
+              },
+              {
+                image: "/assets/images/devlogs/img39.png",
+                text: "I've made some final touches to all of my code, optimising it and making have now deployed it on Netlify edge! I've used as many optimisations as possible, and managed to get a Lighthouse (which is a benchmarking tool for websites) to a near perfect score of 99 in performance (which is out of 100) and a 100 in all other metrics! Overall I've really enjoyed this Duke of Edinburgh Project, and I've learned so many new things along the way, things I might even use in my career in the future! Here is a Github Link to the source code to my website: <a class='text-primary' href='https://github.com/Paarth-K/nuxt-dofe-website' target='_blank' >https://github.com/Paarth-K/nuxt-dofe-website</a >",
+              },
+            ],
+          },
+        },
         volunteering: {
           "section-name": "Volunteering",
           "day-one": {
@@ -291,7 +439,12 @@ export default {
       }
     },
     mainSectionPath() {
-      return "/" + this.identifier.origin;
+      if (this.identifier.origin != "dev") {
+        return "/" + this.identifier.origin;
+      }
+      if (this.identifier.origin == "dev") {
+        return "/";
+      }
     },
     mainSectionName() {
       return this.articles[this.identifier.origin]["section-name"];

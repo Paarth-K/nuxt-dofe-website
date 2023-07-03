@@ -8,7 +8,7 @@
       :ytvid="articleContent.video.id"
       :thumbnail="
         articleContent.video.thumbnail
-          ? 'https://ik.imagekit.io/1vyqdxrhm/tr:f-jpg,pr-true,' +
+          ? 'https://ik.imagekit.io/1vyqdxrhm/tr:f-webp,pr-true,' +
             articleContent.video.thumbnail
           : ''
       "
@@ -31,7 +31,7 @@ export default {
   computed: {
     cdnImage() {
       if (this.articleContent.image) {
-        return "tr:f-jpg,pr-true," + this.articleContent.image;
+        return "tr:f-webp,pr-true," + this.articleContent.image;
       }
     },
   },

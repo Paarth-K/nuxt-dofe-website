@@ -89,6 +89,10 @@ export default {
           to: "/adventurous-journey",
           text: "Adventurous Journey",
         },
+        {
+          to: "/articles/dev/development-journey",
+          text: "Dev Log",
+        },
       ],
     };
   },

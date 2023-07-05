@@ -28,6 +28,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     // Static page generated on-demand, revalidates in background (ISG)
+    "/": { isr: true },
     "/articles/**": { isr: true },
     "/articles": { redirect: "/" },
   },

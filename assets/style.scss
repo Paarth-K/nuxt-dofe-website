@@ -551,6 +551,17 @@ a {
   max-width: 30%;
 }
 
+@media (max-width: 1225px) {
+  .display-2 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  #footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
 @media (max-width: 1024px) {
   .row {
     flex-wrap: wrap;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Kalam&family=Poppins&family=Roboto&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Kalam:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Space+Mono:wght@400;700&display=swap");
 @import "./theme.scss";
 
 /* 
@@ -405,6 +405,7 @@ a {
 
 .footer-title {
   color: var(--dark);
+  font-weight: normal;
 }
 
 /* ----------- .footer ---------- */

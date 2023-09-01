@@ -6,3 +6,5 @@ node_modules
 .unlighthouse
 .vercel
 .env
+.output
+staticwebapp.config.json

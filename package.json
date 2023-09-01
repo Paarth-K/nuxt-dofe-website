@@ -12,6 +12,9 @@
     "lint": "yarn lint:js && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
+  "engines": {
+    "node": "^18.17.0"
+  },
   "devDependencies": {
     "@nuxt/devtools": "^0.4.5",
     "@nuxt/image-edge": "^1.0.0-28101255.bece998",

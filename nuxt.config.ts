@@ -31,6 +31,9 @@ export default defineNuxtConfig({
     "/articles/**": { isr: true },
     "/articles": { redirect: "/" },
   },
+  nitro: {
+    preset: "azure",
+  },
   image: {
     imagekit: {
       baseURL: process.env.IMAGE_KIT,

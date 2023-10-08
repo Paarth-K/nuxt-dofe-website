@@ -26,16 +26,16 @@ const bgColor = new Color("#fff");
 
 const scene = new Scene();
 
-scene.fog = new Fog(bgColor, 0.01, 150);
+scene.fog = new Fog(bgColor, 0.01, 220);
 scene.background = null;
 
 const camera = new PerspectiveCamera(75, 1, 0.1, 1000);
 camera.position.set(20, 20, 45);
 scene.add(camera);
-const ambient = new AmbientLight(0xffffff, 0.6);
+const ambient = new AmbientLight(0xffffff, 0.4);
 
 scene.add(ambient);
-const point = new PointLight(0xffffff, 1);
+const point = new PointLight(0xffffff, 0.8);
 point.position.set(100, 100, 100);
 scene.add(point);
 

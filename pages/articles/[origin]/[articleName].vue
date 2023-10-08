@@ -29,12 +29,12 @@ export default {
                 text: 'I requested the rights to own a "eu.org" domain, (paarthkukrejadofe.eu.org) and got it! I then set up Cloudflare (as DNS only) on my website.',
               },
               {
-                image: "/assets/images/devlogs/img2.png",
-                text: "I've made a header section for my website ",
-              },
-              {
                 image: "/assets/images/devlogs/img3.png",
                 text: "I've set up the website by registering the domain and hosting it as well. I will now make my website look better...",
+              },
+              {
+                image: "/assets/images/devlogs/img2.png",
+                text: "I've made a header section for my website ",
               },
               {
                 image: "/assets/images/devlogs/img4.png",

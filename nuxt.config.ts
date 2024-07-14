@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     "/articles": { redirect: "/" },
   },
   nitro: {
-    preset: "netlify-edge",
+    preset: "azure",
   },
   image: {
     imagekit: {

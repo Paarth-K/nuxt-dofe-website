@@ -20,7 +20,7 @@
 
             <div class="email">
               <icon name="material-symbols:mail" class="text-primary"></icon>
-              contact@paarthkukrejadofe.eu.org
+              paarth@paarthkukreja.com
             </div>
           </div>
         </div>

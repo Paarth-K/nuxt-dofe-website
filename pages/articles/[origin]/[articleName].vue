@@ -26,7 +26,7 @@ export default {
               {
                 image:
                   "/assets/images/devlogs/img1.png?updatedAt=1688389654188",
-                text: 'I requested the rights to own a "eu.org" domain, (paarthkukrejadofe.eu.org) and got it! I then set up Cloudflare (as DNS only) on my website.',
+                text: 'I requested the rights to own a "eu.org" domain, (paarthkukrejadofe.eu.org) (now changed to dofe.paarthkukreja.com) and got it! I then set up Cloudflare on my website.',
               },
               {
                 image: "/assets/images/devlogs/img3.png",

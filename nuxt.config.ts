@@ -36,7 +36,7 @@ export default defineNuxtConfig({
   },
   image: {
     imagekit: {
-      baseURL: process.env.IMAGE_KIT,
+      baseURL: "https://ik.imagekit.io/1vyqdxrhm/",
     },
     inject: true,
   },

@@ -3,7 +3,7 @@
     <LiteYouTubeEmbed
       :id="props.ytvid"
       :title="props.title"
-      :thumbnail="thumbnail"
+      :thumbnail="`//wsrv.nl/?url=` + thumbnail"
     />
   </div>
 </template>

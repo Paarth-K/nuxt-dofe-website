@@ -10,14 +10,14 @@ export default {
       articles: [
         {
           link: "prac-aj",
-          image: "/assets/images/AJ/Prac/prac_aj_prev_crop.png",
+          image: "/assets/images/AJ/Prac/prac_aj_prev_crop.png&il&af",
           title: "Practise Adventurous Journey",
           date: "Wed, 22 Mar 2023",
         },
         {
           link: "real-adventurous-journey",
           image:
-            "/assets/images/AJ/Real/real_aj_preview_pic.png?updatedAt=1686545206648",
+            "/assets/images/AJ/Real/real_aj_preview_pic.png&il&af?updatedAt=1686545206648",
           title: "Real Adventurous Journey",
           date: "Fri, 12 May 2023 - Sat, 13 May 2023",
         },

@@ -61,7 +61,7 @@ export default {
       }
     },
     cdnImage() {
-      return "tr:f-webp,pr-true," + this.image;
+      return this.image + "&il&af&w=1000";
     },
   },
   methods: {
